@@ -1,0 +1,449 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand)
+* 
+	box-sizing: border-box
+ 
+body 
+	font-family: 'Quicksand'
+	margin: 0 auto
+
+.container 	
+	max-width: 1200px
+	margin: 0 auto	
+
+header 
+	background-color: #313234
+	height: 50px
+	
+header 
+	ul 
+		padding: 0
+		margin: 0
+		list-style-type: none
+		float: right
+
+header li 
+	display: inline-block
+	
+
+header
+	nav
+		ul
+			li
+				a 
+					line-height: 50px
+					padding: 0px 20px
+					color: #fff
+					text-decoration: none
+					text-transform: uppercase
+					display: block
+					&:hover,
+					&:focus
+						background: gray
+
+
+header
+	nav
+		img 
+			padding: 10px 0
+
+.naglowek
+	height: 300px
+	background-image: url(http://i.imgur.com/c95Sa6A.jpg)
+	background-size: cover
+	width: 100%
+
+.slogan 
+	margin-top: 80px
+	padding: 10px 10px
+	background-color: rgba(1,1,1,0.6)
+	width: 500px
+	float: right
+
+.naglowek 
+	h1 
+		color: white
+		font-size: 160%
+		text-align: right
+		margin: 0
+
+header 
+	h2 
+		font-size: 180%
+		color: white
+		text-align: right
+		margin: 0
+
+.row:before, .row:after 
+	content: "" 
+	display: table 
+	clear: both	
+
+[class*="col-"] 
+	float: left
+	min-height: 1px
+	padding: 10px
+
+.center-text 
+	text-align: center
+
+.col-1 
+	width: 8.33%
+ 
+.col-2 
+	width: 16.66%
+ 
+.col-3 
+	width: 25%
+ 
+.col-4 
+	width: 33.33%
+ 
+.col-5 
+	width: 41.66%
+ 
+.col-6 
+	width: 50%
+ 
+.col-7 
+	width: 58.33%
+ 
+.col-8 
+	width: 66.66%
+ 
+.col-9 
+	width: 75%
+ 
+.col-10 
+	width: 83.33%
+ 
+.col-11 
+	width: 91.66%
+ 
+.col-12 
+	width: 100%
+
+.col-offset-1 
+	margin-left: 8.33%
+
+.col-offset-2 
+	margin-left: 16.66%
+.col-offset-3 
+	margin-left: 25%
+
+.col-offset-4 
+	margin-left: 33.33%
+
+.col-offset-5 
+	margin-left: 41.66%
+
+.col-offset-6 
+	margin-left: 50%
+
+.col-offset-7 
+	margin-left: 58.33%
+
+.col-offset-8 
+	margin-left: 66.66%
+
+.col-offset-9 
+	margin-left: 75%
+
+.col-offset-10 
+	margin-left: 83.33%
+
+.col-offset-11 
+	margin-left: 91.66%
+
+.col-offset-12 
+	margin-left: 100%
+ 
+.korzysci .icon-btn 
+	height: 135px
+	width: 135px
+	border-radius: 20%
+	border: 0
+
+.stopka .icon-btn 
+	height: 30px
+	width: 30px
+	border-radius: 50%
+	border: 0
+	margin: 0
+
+.korzysci .fa 
+	font-size: 100px
+
+
+.dodatkowy_naglowek 
+	h1 
+		color: black
+		font-size: 200%
+		margin: 0
+
+.dodatkowy_naglowek 
+	h2 
+		font-size: 100%
+		margin: 0
+		color: gray
+
+.dodatkowy_naglowek 
+	padding-bottom: 30px
+
+.galeria
+	margin: 0 auto
+
+.galeria [class*="col-"] 
+	padding: 0	
+	position: relative
+
+.galeria 
+	img 
+		max-width: 100%
+
+.ikona 
+	position: absolute
+	padding-top: 50%
+	height: 100%
+	width: 100%
+	text-align: center
+	color: white
+	background-color: rgba(0,0,0,0.3)
+	display: none
+
+.galeria [class*="col-"] .ikona 
+	&:hover
+		display: block
+
+[class^="btn-"] 
+	height: 125px
+	width: 125px
+	border: 0 solid
+	border-radius: 50%
+	margin: 10px
+	font-size: 10px
+	border-radius: 50%
+
+.obrazek 
+	position: relative
+	min-height: 215px
+	background: gray
+	text-align: left
+
+.obrazek 
+	img 
+		position: absolute
+		bottom: 0
+
+.obrazek 
+	p 
+		column-count: 2
+
+.obrazek 
+	h3 
+		font-size: 200%
+
+.liczby 
+	h1 
+		font-family: Verdana, Arial, Helvetica, sans-serif
+		font-size: 200%
+
+.liczby 
+	h2 
+		color: blue
+		font-size: 80%
+
+.stopka 
+	background: black
+	color: white
+	padding: 1px
+
+.imie 
+	display: none
+
+.imie .btn-1 
+	&:hover
+		display: block
+
+.social 
+	margin: 0 auto
+	width: 40px
+	padding: 15px
+
+.zespol .icon-btn 
+	height: 30px
+	width: 30px
+	border: 0 solid #FFFFFF
+	border-radius: 10%
+	margin: 0px
+	cursor: pointer
+	font-size: 15px
+
+.fa-twitter 
+	color: #4099FF
+
+.fa-facebook 
+	color: #3B5998
+
+.fa-google-plus 
+	color: #DB5A3C
+
+.fa-instagram 
+	color: #5C3D2E
+
+.fa-github 
+	color: #4183C4
+
+.icon-btn 
+	&:hover
+		transform: scale(1.10)
+
+.icon-btn .fa 
+	&:hover
+		color: #FFFFFF
+
+.twitter
+	&:hover
+		background: #4099FF	
+
+.facebook
+	&:hover
+		background: #3B5998
+
+.google-plus
+	&:hover
+		background: #DB5A3C
+
+
+.instagram
+	&:hover
+		background: #5C3D2E
+
+.github
+	&:hover
+		background: #4183C4
+
+.imie_kolko
+	&:hover
+		background: #3B5998
+
+.korzysci [class*="col-"] p 
+	&:hover
+		color: #4183C4
+
+.korzysci [class*="col-"] .icon-btn 
+	&:hover
+		background: blue
+
+.kolumna-kontakt p, .kolumna-kontakt h3 
+	margin: 0	
+
+@media(max-width: 767px) 
+	header
+		nav ul 
+			float: none
+
+	header
+		nav
+			ul
+				li 
+					display: block
+					border: 2px solid white
+
+	header 
+		height: 215px
+		text-align: center
+
+	.naglowek  
+		height: 400px
+		text-align: center	
+
+	.slogan 
+		margin-top: 80px
+		padding: 0 0 0 0 
+		width: 500px
+		float: none
+
+	.naglowek h1 
+		text-align: center
+		font-size: 100%
+
+	header h2 
+		text-align: center
+		font-size: 110%
+
+	.col-s-1 
+		width: 8.33%
+	 
+	.col-s-2 
+		width: 16.66%
+	 
+	.col-s-3 
+		width: 25%
+	 
+	.col-s-4 
+		width: 33.33%
+	 
+	.col-s-5 
+		width: 41.66%
+	 
+	.col-s-6 
+		width: 50%
+	 
+	.col-s-7 
+		width: 58.33%
+	 
+	.col-s-8 
+		width: 66.66%
+	 
+	.col-s-9 
+		width: 75%
+	 
+	.col-s-10 
+		width: 83.33%
+	 
+	.col-s-11 
+		width: 91.66%
+	 
+	.col-s-12 
+		width: 100%
+
+	.col-s-1 
+		width: 8.33%
+
+	.col-s-12 
+		width: 100%
+
+	.container 	
+		max-width: 767px
+		margin: 0 auto	
+
+	.ikona 
+		display: none
+
+	.obrazek 
+		img 
+			display: none
+
+	.stopka 
+		padding: 0
+
+	.col-offset-2 
+		margin-left: 0
+
+	.col-offset-3 
+		margin-left: 0
+
+	.col-offset-1 
+		margin-left: 0
+
+	.col-offset-9 
+		margin-left: 0
+
+	.m-center 
+		text-align: center
+
+	.galeria [class*="col-"] .ikona 
+		&:hover
+			display: none
+
+
